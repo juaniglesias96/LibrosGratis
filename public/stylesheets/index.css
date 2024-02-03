@@ -1,0 +1,120 @@
+/* Todos los elementos HTML usarán la fuente "Open Sans", sans-serif */
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* El elemento body sin margen y sin relleno */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+section h2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 150;
+    font-size: 150%;
+    margin: 20px;
+    padding: 20px;
+    
+    
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+/* El elemento header tendrá una imagen de fondo */
+
+header {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    height: 400px;
+    grid: 0cqmax;
+    position: relative;
+    
+
+
+}
+
+
+nav ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+    background-color: brown;
+    border:15px solid brown;
+	
+    
+  }
+
+nav ul li a {
+    color: white;
+}
+
+  a{
+    text-decoration: none;
+  }
+
+  h1{
+    padding-top:15% ;
+    margin: 20px;
+  }
+
+  p{
+    
+    margin: 20px;
+  }
+
+
+  .seccionwebdevelopment {
+    display: flex;
+    justify-content: space-around;
+}
+
+  .seccionmicrosoft {
+  display: flex;
+  justify-content: space-around;
+}
+
+.seccionbuilder {
+  display: flex;
+  justify-content: space-around;
+}
+
+.seccionjava {
+  display: flex;
+  justify-content: space-around;
+}
+
+.seccioncomputergraphics {
+  display: flex;
+  justify-content: space-around;
+}
+
+.seccioninternet {
+  display: flex;
+  justify-content: space-around;
+}
+  
+.seccionobjects {
+  display: flex;
+  justify-content: space-around;
+}
+
+.seccionheader{
+  display: flex;
+  padding-left: 70%;
+ 
+}
+  
+.imagen {
+  width: 15%;
+  height: auto;
+  margin-right: 10px; 
+  
+}
